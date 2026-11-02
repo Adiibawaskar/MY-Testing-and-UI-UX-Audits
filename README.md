@@ -15,13 +15,16 @@ This repository showcases real-world exploratory testing, visual QA audits, and 
 
 ---
 
-## 📂 Repository Navigation
+## 📁 Repository Architecture
 
 ```text
 MY-Testing-and-UI-UX-Audits/
-│
-├── README.md                                    <-- Portfolio Index & Directory Map
-│
+├── README.md                                    <-- Master Portfolio Index
 └── ui-bug-reports/
-    └── flipkart/                                <-- Flipkart Audit Suite
-        └── e-commerce-page-ui-issues.md         <-- Category Truncation & Header Audit
+    └── flipkart/
+        ├── e-commerce-page-ui-issues.md         <-- Desktop Grid & Alignment Audit
+        ├── product-page-ui-issues.md            <-- Product Section & Mobile Description Audit
+        ├── responsive-breakpoints-audit.md      <-- Header & Viewport Breakpoint Audit
+        └── minutes/
+            ├── README.md                        <-- Minutes Overview Index
+            └── minutes-desktop-ui-issues.md     <-- Hyperlocal Desktop & Z-Index Audit
